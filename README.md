@@ -6,7 +6,7 @@ Repositório com implementações práticas de algoritmos de Machine Learning. C
 
 | # | Projeto | Algoritmo | Tipo | Dataset | Status |
 | --- | --- | --- | --- | --- | --- |
-| 01 | [Regressão Linear](./linear-regression/) | Regressão Linear | Supervisionado | ??? | 🚧 Em progresso |
+| 01 | [Regressão Linear](./1-Regressão-Linear/) | Regressão Linear | Supervisionado | ??? | 🚧 Em progresso |
 
 **Tipos:** `Supervisionado` · `Não supervisionado` · `Semi-supervisionado` · `Por reforço`
 
