@@ -4,11 +4,18 @@ Repositório com implementações práticas de algoritmos de Machine Learning. C
 
 ## Projetos
 
-| # | Projeto | Algoritmo | Tipo | Dataset | Status |
-| --- | --- | --- | --- | --- | --- |
-| 01 | [Regressão Linear](./1-Regressão-Linear/) | Regressão Linear | Supervisionado | ??? | 🚧 Em progresso |
-
-**Tipos:** `Supervisionado` · `Não supervisionado` · `Semi-supervisionado` · `Por reforço`
+| # | Projeto | Algoritmo | Tipo | Status |
+| --- | --- | --- | --- | --- |
+| 01 | [Regressão Linear - Salário e Experiência](./1-SalaryExperience/) | Regressão Linear | Supervisionado | `✅ Concluído` |
+| 02 | Regressão Logística | Regressão Logística | Supervisionado | `📋 Planejado` |
+| 03 | Árvore de Decisão | Decision Tree | Supervisionado | `📋 Planejado` |
+| 04 | K-Means Clustering | K-Means | Não supervisionado | `📋 Planejado` |
+| 05 | Random Forest | Random Forest | Supervisionado | `📋 Planejado` |
+| 06 | SVM | Support Vector Machine | Supervisionado | `📋 Planejado` |
+| 07 | K-Nearest Neighbors | KNN | Supervisionado | `📋 Planejado` |
+| 08 | Naive Bayes | Naive Bayes | Supervisionado | `📋 Planejado` |
+| 09 | Gradient Boosting | XGBoost | Supervisionado | `📋 Planejado` |
+| 10 | Rede Neural | MLP | Supervisionado | `📋 Planejado` |
 
 **Status:** `✅ Concluído` · `🚧 Em progresso` · `📋 Planejado`
 
@@ -16,16 +23,15 @@ Repositório com implementações práticas de algoritmos de Machine Learning. C
 
 ## Estrutura de cada projeto
 
-``` TEXT
+``` text
 projeto/
 ├── notebook.ipynb   # Análise e experimentos
-├── README.md        # Explicação do algoritmo e resultados
-└── data/            # Dataset (ou instruções para baixar)
+└── README.md        # Explicação do algoritmo e resultados
 ```
 
 ## Como rodar
 
-```bash
+``` bash
 # Clone o repositório
 git clone https://github.com/ValentimPiazera/ML-Playground.git
 cd ML-Playground
@@ -44,5 +50,3 @@ jupyter notebook projeto/notebook.ipynb
 - [Hands-On Machine Learning – Aurélien Géron](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
 - [Documentação scikit-learn](https://scikit-learn.org/stable/)
 - [Kaggle Datasets](https://www.kaggle.com/datasets)
-
----
