@@ -32,14 +32,16 @@ projeto/
 ## Como rodar
 
 ``` bash
-# Clone o repositório
+# 1 - Aperte um dos badges presente em cada notebook
+# Ou
+# 2 - Clone o repositório
 git clone https://github.com/ValentimPiazera/ML-Playground.git
 cd ML-Playground
 
-# Instale as dependências
+# 2-  Instale as dependências
 pip install -r requirements.txt
 
-# Abra o notebook do projeto desejado
+# 2- Abra o notebook do projeto desejado
 jupyter notebook projeto/notebook.ipynb
 ```
 
